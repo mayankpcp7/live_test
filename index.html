@@ -101,13 +101,14 @@
     </header>
 
     <!-- ----------------------------------------our app------------------------------------------ -->
-    <section class="bg_black py-5" data-aos="flip-right">
+    <section class="bg_black py-5 position-relative" data-aos="flip-right">
+      <div class="right_ellipse"><img src="./assets/images/webp/right_ellipse.png" alt="Right"></div>
       <div class="container mt-xl-5">
         <h2 class="text-center color_white fw-semibold ff_raleway fs_xl mb-0">
           Our <span class="fst-italic color_skyblue fw-normal"> App</span> lets
           you do
         </h2>
-        <div class="row py-5 mt-5">
+        <div class="row py-xl-5 mt-xl-5">
           <div class="col-md-4 col-sm-6 py-md-0 py-3">
             <div
               class="d-flex flex-column align-items-center justify-content-center py-4 px-3 bg_app_card position-relative h-100 transition_400ms"
@@ -242,8 +243,9 @@
       </div>
     </section>
     <!-- --------------------------------multichains----------------------------------- -->
-    <section class="bg_black py-5" data-aos="flip-up">
-      <div class="container py-5">
+    <section class="bg_black py-5 position-relative" data-aos="flip-up">
+      <div class="left_ellipse"><img src="./assets/images/webp/left_ellipse.png" alt="left_ellipse"></div>
+      <div class="container py-xl-5">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div>
@@ -282,7 +284,8 @@
     </section>
     <!-- -------------------------------------thoughtless-job------------------------------- -->
 
-    <section class="bg_thoughtless py-5" data-aos="zoom-in-up">
+    <section class="bg_thoughtless py-5 position-relative" data-aos="zoom-in-up">
+      <div class="right_ellipse"><img src="./assets/images/webp/right_ellipse.png" alt="right_ellipse"></div>
       <div class="container py-xl-5 my-xl-5">
         <div class="row py-5 justify-content-between align-items-center">
           <div class="col-lg-6">
@@ -348,7 +351,8 @@
     </section>
 
     <!-- -------------------------low code and no code--------------------------- -->
-    <section class="bg_black py-5"  data-aos="zoom-in-left">
+    <section class="bg_black py-5 position-relative"  data-aos="zoom-in-left">
+      <div class="left_ellipse"><img src="./assets/images/webp/left_ellipse.png" alt=""></div>
       <div class="container pt-xl-5">
         <div class="d-flex justify-content-center align-items-center">
           <h4
@@ -421,16 +425,17 @@
       </div>
     </section>
 
-    <!-- ---------------------------FAQS -->
+    <!-- ---------------------------FAQS----------------------------------------------------->
 
-    <section class="bg_black py-5"  data-aos="zoom-in-left">
+    <section class="bg_black py-5 position-relative"  data-aos="zoom-in-left">
+      <div class="right_ellipse top-0"></div>
       <div class="container">
         <h2 class="ff_raleway color_white fs_xl fw_semibold mb-0 text-center">
           FAQs
         </h2>
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item bg-transparent mb-2">
-            <h2 class="accordion-header">
+        <div class="accordion pt-5 mt-5" id="accordionExample">
+          <div class="accordion-item border-0 border_accordion bg-transparent mb-2">
+            <h2 class="accordion-header border-0">
               <button
                 class="accordion-button bg-transparent border-0"
                 type="button"
@@ -439,7 +444,7 @@
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                <p class="ff_raleway color_white mb-0">
+                <p class="ff_raleway color_white ">
                   Euismod metus consectetur odio elementum dui eros.
                 </p>
               </button>
@@ -459,7 +464,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item bg-transparent mb-2">
+          <div class="accordion-item border-0 border_accordion bg-transparent mb-2">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed bg-transparent"
@@ -469,8 +474,8 @@
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                <p></p>
-                Donec sit urna odio faucibus odio. Justo molestie.
+                <p class="ff_raleway color_white fs_msm">
+                Donec sit urna odio faucibus odio. Justo molestie.</p>
               </button>
             </h2>
             <div
@@ -479,19 +484,16 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p class="ff_raleway color_white">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </p>
               </div>
             </div>
           </div>
-          <div class="accordion-item bg-transparent mb-2">
+          <div class="accordion-item border-0 border_accordion bg-transparent mb-2">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed bg-transparent"
@@ -501,7 +503,9 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <p class="ff_raleway color_white fs_msm">
+                Pretium lacinia et posuere porta elit. Pellentesque in elit.</p>
+              </button>
               </button>
             </h2>
             <div
@@ -522,7 +526,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item bg-transparent mb-2">
+          <div class="accordion-item border-0 border_accordion bg-transparent mb-2">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed bg-transparent"
@@ -532,7 +536,8 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <p class="ff_raleway color_white fs_msm">
+                Vel tristique nunc sit non ac ut. Velit pharetra nunc.</p>
               </button>
             </h2>
             <div
@@ -553,7 +558,7 @@
               </div>
             </div>
           </div>
-          <div class="accordion-item bg-transparent mb-2">
+          <div class="accordion-item border-0 border_accordion bg-transparent mb-2">
             <h2 class="accordion-header">
               <button
                 class="accordion-button collapsed bg-transparent"
@@ -563,7 +568,8 @@
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                 <p class="ff_raleway color_white fs_msm">
+               Duis curabitur tincidunt velit cursus. Vulputate at at.</p>
               </button>
             </h2>
             <div
@@ -590,8 +596,10 @@
 
     <!-- ----------------------------------------Engage with us---------------------------------- -->
 
-    <section class="bg-black py-5"  data-aos="fade-up"></section>>
-      <div class="container py-5 my-5">
+    <section class="bg-black py-5 position-relative"  data-aos="fade-up">
+
+      <div class="left_ellipse"></div>
+    <div class="container py-xl-5 my-xl-5">
         <h2
           class="ff_raleway fst-italic color_skyblue text-center fw-semibold fs_xl mb-0"
         >

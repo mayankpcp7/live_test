@@ -5,7 +5,7 @@
 
 /* ==========================preloader============================ */
 #preloader {
-  background: black  no-repeat center center;
+  background: black no-repeat center center;
   background-size: 10%;
   height: 100vh;
   width: 100%;
@@ -13,8 +13,6 @@
   z-index: 100;
 }
 /* ===========================header===================================== */
-
-
 
 .bg_header {
   background: url(../assets/images/webp/header_bg_color.png);
@@ -290,14 +288,26 @@ input ::placeholder {
 .opacity_69 {
   opacity: 0.69;
 }
-
+.right_ellipse {
+  position: absolute;
+  top: -50%;
+  right: -30%;
+}
+.left_ellipse {
+  position: absolute;
+  top: -50%;
+  left: -30%;
+}
 .scale_animation {
   width: 100px;
   height: 100px;
   background: #000;
   animation: crescendo 1.5s alternate infinite ease-in;
 }
-
+.border_accordion {
+  border-radius: 6px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
 @keyframes crescendo {
   0% {
     transform: scale(0.8);
@@ -336,8 +346,18 @@ input ::placeholder {
     width: 45px;
   }
 }
-@media(min-width:1200px){
+@media (min-width: 1200px) {
   .min_vh_100 {
-  min-height: 100vh;
+    min-height: 100vh;
+  }
+ 
 }
+@media(max-width:1200px){
+   .right_ellipse {
+    position: absolute;
+    display: none;
+  }
+  .left_ellipse {
+    display: none;
+  }
 }
